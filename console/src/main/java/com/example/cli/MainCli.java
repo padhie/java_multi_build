@@ -3,7 +3,7 @@ package com.example.cli;
 import com.example.core.Calculator;
 import java.util.Scanner;
 
-public class MainCLI {
+public class MainCli {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();

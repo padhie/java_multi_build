@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class MainGUI extends Application {
+public class MainGui extends Application {
     @Override
     public void start(Stage stage) {
         Calculator calculator = new Calculator();

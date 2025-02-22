@@ -1,0 +1,12 @@
+services:
+    maven:
+        image: maven:latest
+        volumes:
+            - .:/app
+        working_dir: /app
+
+    java:
+        image: java:latest
+        volumes:
+            - .:/app
+        working_dir: /app
